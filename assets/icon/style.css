@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?utwkcr');
+  src:  url('fonts/icomoon.eot?utwkcr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?utwkcr') format('truetype'),
+    url('fonts/icomoon.woff?utwkcr') format('woff'),
+    url('fonts/icomoon.svg?utwkcr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+  content: "\e900";
+}
+.icon-security:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-location:before {
+  content: "\e903";
+}
+.icon-email:before {
+  content: "\e904";
+}
+.icon-collaboration:before {
+  content: "\e905";
+}
+.icon-arrow .path1:before {
+  content: "\e906";
+  color: rgb(0, 0, 0);
+}
+.icon-arrow .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(98, 224, 217);
+}
+.icon-arrow .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(27, 35, 48);
+}
+.icon-any-file:before {
+  content: "\e909";
+}
+.icon-access-anywhere .path1:before {
+  content: "\e90a";
+  color: rgb(98, 224, 217);
+}
+.icon-access-anywhere .path2:before {
+  content: "\e90b";
+  margin-left: -1.064453125em;
+  color: rgb(98, 224, 217);
+}
+.icon-access-anywhere .path3:before {
+  content: "\e90c";
+  margin-left: -1.064453125em;
+  color: rgb(24, 31, 43);
+}
+.icon-access-anywhere .path4:before {
+  content: "\e90d";
+  margin-left: -1.064453125em;
+  color: rgb(255, 255, 255);
+}
+.icon-access-anywhere .path5:before {
+  content: "\e90e";
+  margin-left: -1.064453125em;
+  color: none;
+}
+.icon-access-anywhere .path6:before {
+  content: "\e90f";
+  margin-left: -1.064453125em;
+  color: rgb(98, 224, 217);
+}
+.icon-access-anywhere .path7:before {
+  content: "\e910";
+  margin-left: -1.064453125em;
+  color: rgb(255, 255, 255);
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
